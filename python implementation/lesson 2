@@ -24,10 +24,10 @@ for item in mydata:
 
 out1 = list(map(SubstractTen, map(Square, map(AddOne, mydata))))
 
-# add one then square then select only x <20 to pass it to the last step (SubstractTen)
+# add one then square then only select x <20 to pass them to the last step (SubstractTen)
 ou2 = list(map(SubstractTen, filter(lambda x: x < 20, map(Square, map(AddOne, mydata)))))
 
-# add one then square then select only x <70 and only take two and pass it to the last step (SubstractTen)
+# add one then square then only select x <70 and only take two then pass them to the last step (SubstractTen)
 out3 = list(map(SubstractTen, islice(sorted(filter(lambda x: x < 70, map(Square, map(AddOne, mydata)))), 2)))
 
 print(out3)
