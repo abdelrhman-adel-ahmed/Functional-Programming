@@ -32,7 +32,6 @@ int main()
 	}
 	//--------------------declerative-------------------------
 
-	//back_inserter call push back
 	transform(mydata.begin(), mydata.end(), back_inserter(output),test::AddOne);
 	transform(output.begin(), output.end(), output.begin(), test::Square);
 	transform(output.begin(), output.end(), output.begin(), test::SubstractTen);
