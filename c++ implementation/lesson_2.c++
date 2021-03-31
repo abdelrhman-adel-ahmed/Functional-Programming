@@ -40,7 +40,7 @@ int main()
 		//cout << item << endl;
 	}
 
-	//dd one then square then select only x <20 to pass it to the last step (SubstractTen)
+	//add one then square then select only x <20 to pass it to the last step (SubstractTen)
 
 	transform(mydata.begin(), mydata.end(), back_inserter(output), test::AddOne);
 	transform(output.begin(), output.end(), output.begin(), test::Square);
