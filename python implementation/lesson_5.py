@@ -39,7 +39,7 @@ def composite_fun(*fun):
     return reduce(compose, fun, lambda item: item)
 
 
-# usual mapping iterable to func
+# usual mapping iterable to func (pipeline)
 out1 = list(map(SubstractTen, map(Square, map(AddOne, mydata))))
 print(out1)
 
