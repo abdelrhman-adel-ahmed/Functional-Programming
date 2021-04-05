@@ -9,6 +9,7 @@ i recommend to read those articles in order to gain more deep understanding of c
 
 # note:The example of the lecture has already been written by MuhammadMotawe
 # link : https://github.com/MuhammadMotawe/FunctionalProgramming/blob/main/Closures/Python/Closures.py
+# note: its not recomended to use OrderedDict with large data due to overhead complexity of using doubly linked list
 
 
 def outer(x):
