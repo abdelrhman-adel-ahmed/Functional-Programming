@@ -38,17 +38,16 @@ def doWhere():
             yield item
 
 
-def doTaketwo():
-    n = 2
-    i = 0
+def doTake(num):
     flag = True
     generator_obj = doWhere()
     while flag:
-        if n != i:
+        if num != 0:
             item = yield next(generator_obj)
         else:
             flag = False
-        n -= 1
+        num -= 1
 
 
-print(list(doTaketwo()))
+print(list(doTake(2)))
+
