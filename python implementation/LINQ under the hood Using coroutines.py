@@ -83,6 +83,6 @@ def take(it):
         it -= 1
 
 
-source(l, addone(square(substract(greater(take(3))))))
+source(l, addone(square(substract(greater(take(2))))))
 for item in li:
     print(item)
