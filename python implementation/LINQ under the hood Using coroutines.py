@@ -1,5 +1,5 @@
 """
-note : we can add scheduler to make it more prettyer ,if i have time may be i will do so  
+note : we can add scheduler to make it more prettier  ,if i have time may be i will do so  
 """
 l = [1, 2, 3, 4, 5]
 
