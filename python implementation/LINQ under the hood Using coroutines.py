@@ -1,3 +1,6 @@
+"""
+note : we can add scheduler to make it more prettyer ,if i have time may be i will do so  
+"""
 l = [1, 2, 3, 4, 5]
 
 
