@@ -1,5 +1,6 @@
 """
-note : we can add scheduler to make it more prettier  ,if i have time may be i will do so  
+note : 1-we can add scheduler to make it more prettier  ,if i have time may be i will do so  ,
+       2-we can also use async wait ,instead of doing all this by hand ,but i figure out that doing it like this will make things clear about how coroutine works
 """
 l = [1, 2, 3, 4, 5]
 
