@@ -20,6 +20,7 @@ def source(l, target):
             target.send(item)
         except StopIteration:
             target.close()
+            break
 
 
 @coroutine
