@@ -7,8 +7,6 @@ note: there is differnce between coroutines and generators
 *generators: provied values for iteration (using yield as statment)
 *coroutines: consume values we send by using send() function .(using yiled as expression,and can be 
 used as statement and expression !)
-if any one want more materiales to understand generators ,coroutines,async programming in python
-contact me .. 
 """
 # l = [2, 1, 3, 6, 9, 10, 11, 13, 18]
 l = [1, 2, 3, 4, 5]
